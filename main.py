@@ -41,7 +41,6 @@ while running:
         elif event.type == pygame.KEYDOWN:
             if event.key == pygame.K_ESCAPE: 
                 running=False # Check if the pressed key is 'esc'
-                running = False
             elif key in tune.tunes:
              play_sound(tune.tunes[key])
             else:
